@@ -1,23 +1,23 @@
 .container{
     display: grid;
-    grid-template-columns:repeat(12, 1fr); 
-    grid-template-rows: 50px 200px 50px;
+    grid-template: 50px 200px 50px / repeat(12, 1fr);
     grid-gap: 3px;
 }
 .top-nav{
-    grid-column: 2/-1;
+    grid-column: 1/-2;
     background-color: yellowgreen;
 }
 .side-nav{
     grid-row: 1/-1;
+    grid-column: 12/ span 1;
     background-color: cadetblue;
 }
 .footer{
-    grid-column: 2/-1;
+    grid-column: 1/-2;
     background-color: chocolate;
 }
 .art-two{
-    grid-column: 3/-1;
+    grid-column: 2/-2;
     background-color: darkcyan;
 }
 .art-one{
