@@ -1,27 +1,39 @@
 .container{
+    height: 100vh;
     display: grid;
-    grid-template-columns:repeat(12, 1fr); 
-    grid-template-rows: 50px 200px 50px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
     grid-gap: 3px;
 }
-.top-nav{
-    grid-column: 2/-1;
-    background-color: yellowgreen;
+.one{
+background-color: cadetblue;
 }
-.side-nav{
-    grid-row: 1/-1;
-    background-color: cadetblue;
+.two{
+    background-color:chartreuse
 }
-.footer{
-    grid-column: 2/-1;
-    background-color: chocolate;
+.three{
+    background-color:coral
 }
-.art-two{
-    grid-column: 3/-1;
-    background-color: darkcyan;
+.four{
+    background-color:crimson
 }
-.art-one{
-    background-color: gold;
+.five{
+    background-color:darkblue
+}
+.six{
+    background-color:darkkhaki
+}
+.seven{
+    background-color:darkgreen;  
+}
+.eight{
+    background-color:dodgerblue;  
+}
+.nine{
+    background-color:lightcoral;  
+}
+.ten{
+    background-color:magenta;  
 }
 div{
 text-align: center;
