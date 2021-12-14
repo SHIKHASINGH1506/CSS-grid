@@ -1,27 +1,14 @@
 .container{
     display: grid;
-    grid-template-columns:repeat(12, 1fr); 
-    grid-auto-rows: 100px;
-    grid-gap: 3px;
+    grid-template-columns:repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-auto-rows: 200px;
+    grid-gap: 4px;
 }
-.top-nav{
-    grid-column: 2/-1;
-    background-color: yellowgreen;
+.vertical{
+
 }
-.side-nav{
-    grid-row: 1/-1;
-    background-color: cadetblue;
-}
-.footer{
-    grid-column: 2/-1;
-    background-color: chocolate;
-}
-.art-two{
-    grid-column: 3/-1;
-    background-color: darkcyan;
-}
-.art-one{
-    background-color: gold;
+.horizontal{
+
 }
 div{
 text-align: center;
